@@ -1,0 +1,1028 @@
+[ 2017-04-22T09:51:16+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8] Undefined index: roomer_id G:\xampp\htdocs\hotel\Application\Roomer\Controller\IndexController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+
+[ 2017-04-22T09:51:19+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:51:22+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `hotel_roomer` [ RunTime:0.1904s ]
+SQL: SELECT * FROM `hotel_roomer` WHERE ( roomer_id='4001' AND roomer_password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.1692s ]
+SQL: UPDATE `hotel_roomer` SET `last_login_time`='2017-04-22 09:51:22' WHERE ( roomer_id=4001 ) [ RunTime:0.1797s ]
+
+[ 2017-04-22T09:51:22+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:51:22+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=index&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `hotel_roomer` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `hotel_roomer` WHERE ( roomer_name='刘希' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:01+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=self&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:02+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=self&a=dbsave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2] mkdir(): File exists G:\xampp\htdocs\hotel\Application\Roomer\Controller\SelfController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002223s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:04+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=production&a=check_orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `hotel_production_order` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_production_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: select * from hotel_production_order Limit 0, 15 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:05+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=production&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `hotel_production` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_production` LIMIT 1   [ RunTime:0.0003s ]
+SQL: select * from hotel_production Limit 0, 15 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Use of undefined constant production_id - assumed 'production_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\54ca422a4de083fb03368bb4598c4d37.php 第 38 行.
+NOTIC: [8] Use of undefined constant production_id - assumed 'production_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\54ca422a4de083fb03368bb4598c4d37.php 第 38 行.
+NOTIC: [8] Use of undefined constant production_id - assumed 'production_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\54ca422a4de083fb03368bb4598c4d37.php 第 38 行.
+NOTIC: [8] Use of undefined constant production_id - assumed 'production_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\54ca422a4de083fb03368bb4598c4d37.php 第 38 行.
+NOTIC: [8] Use of undefined constant production_id - assumed 'production_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\54ca422a4de083fb03368bb4598c4d37.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:07+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=profit&a=pie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0088s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 74 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房'   AND order_status='已支付'  AND month(starttime) = '04' ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 75 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房'   AND order_status='已支付'  AND month(starttime) = '04' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 76 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND order_status='已支付'  AND month(starttime) = '04' ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 77 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND order_status='已支付'  AND month(starttime) = '04'  ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:08+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=profit&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 28 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2017' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 29 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2017' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 30 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2017' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 31 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2017' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2017' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2017' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2017' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2017' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2017' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2017' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2017' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2017' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2017' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2017' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2017' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2017' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '12' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '12' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '12' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '12' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 44 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 45 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:09+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=profit&a=analysis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `hotel_user` [ RunTime:0.0034s ]
+SQL: SELECT `user_IDcard` FROM `hotel_user`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 海南 G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 165 行.
+NOTIC: [8] Undefined index: 广东 G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 165 行.
+NOTIC: [8] Undefined index: 云南 G:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 165 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: 北京 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 123 行.
+NOTIC: [8] Undefined index: 天津 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 124 行.
+NOTIC: [8] Undefined index: 上海 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 125 行.
+NOTIC: [8] Undefined index: 重庆 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 126 行.
+NOTIC: [8] Undefined index: 河北 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 127 行.
+NOTIC: [8] Undefined index: 河南 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 128 行.
+NOTIC: [8] Undefined index: 辽宁 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 130 行.
+NOTIC: [8] Undefined index: 黑龙江 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 131 行.
+NOTIC: [8] Undefined index: 湖南 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 132 行.
+NOTIC: [8] Undefined index: 安徽 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 133 行.
+NOTIC: [8] Undefined index: 山东 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 134 行.
+NOTIC: [8] Undefined index: 新疆 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 135 行.
+NOTIC: [8] Undefined index: 江苏 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 136 行.
+NOTIC: [8] Undefined index: 浙江 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 137 行.
+NOTIC: [8] Undefined index: 江西 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 138 行.
+NOTIC: [8] Undefined index: 湖北 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 139 行.
+NOTIC: [8] Undefined index: 广西 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 140 行.
+NOTIC: [8] Undefined index: 甘肃 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 141 行.
+NOTIC: [8] Undefined index: 山西 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 142 行.
+NOTIC: [8] Undefined index: 内蒙古 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 143 行.
+NOTIC: [8] Undefined index: 陕西 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 144 行.
+NOTIC: [8] Undefined index: 吉林 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 145 行.
+NOTIC: [8] Undefined index: 福建 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 146 行.
+NOTIC: [8] Undefined index: 贵州 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 147 行.
+NOTIC: [8] Undefined index: 青海 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 149 行.
+NOTIC: [8] Undefined index: 西藏 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 150 行.
+NOTIC: [8] Undefined index: 四川 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 151 行.
+NOTIC: [8] Undefined index: 宁夏 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 152 行.
+NOTIC: [8] Undefined index: 台湾 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 154 行.
+NOTIC: [8] Undefined index: 香港 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 155 行.
+NOTIC: [8] Undefined index: 澳门 G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\ef585a7d7c19b041019ce64af69653cd.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:13+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=roommanager&a=roomcategories
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:13+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=roommanager&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `hotel_room` [ RunTime:0.0469s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='标准单人房' )  [ RunTime:0.0003s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='标准双人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:14+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=roommanager&a=allroom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `hotel_room` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` LIMIT 1   [ RunTime:0.0003s ]
+SQL: select * from hotel_room Limit 0, 12 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:16+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=roommanager&a=room_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `hotel_room_show` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room_show` LIMIT 1   [ RunTime:0.0012s ]
+SQL: select * from hotel_room_show Limit 0, 12 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Use of undefined constant room_category - assumed 'room_category' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\736f67087dcc71e163327d676154d5d2.php 第 36 行.
+NOTIC: [8] Use of undefined constant room_category - assumed 'room_category' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\736f67087dcc71e163327d676154d5d2.php 第 36 行.
+NOTIC: [8] Use of undefined constant room_category - assumed 'room_category' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\736f67087dcc71e163327d676154d5d2.php 第 36 行.
+NOTIC: [8] Use of undefined constant room_category - assumed 'room_category' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\736f67087dcc71e163327d676154d5d2.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:18+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=employemanager&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `hotel_employe` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_employe` LIMIT 1   [ RunTime:0.0002s ]
+SQL: select * from hotel_employe Limit 0, 15 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\e780de58ebfc35cba1270c9761e1f25b.php 第 57 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\e780de58ebfc35cba1270c9761e1f25b.php 第 58 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\e780de58ebfc35cba1270c9761e1f25b.php 第 57 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\e780de58ebfc35cba1270c9761e1f25b.php 第 58 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\e780de58ebfc35cba1270c9761e1f25b.php 第 57 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\e780de58ebfc35cba1270c9761e1f25b.php 第 58 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\e780de58ebfc35cba1270c9761e1f25b.php 第 57 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\e780de58ebfc35cba1270c9761e1f25b.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T09:52:19+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=employemanager&a=log
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `hotel_log` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_log` LIMIT 1   [ RunTime:0.0003s ]
+SQL: select * from hotel_log Limit 0, 15 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T12:41:37+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=roommanager&a=roomcategories
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T12:41:43+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=roommanager&a=allroom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `hotel_room` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` LIMIT 1   [ RunTime:0.0006s ]
+SQL: select * from hotel_room Limit 0, 12 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+NOTIC: [8] Use of undefined constant room_id - assumed 'room_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\fec03fcc84aef3def9e158ebdf985011.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T12:41:44+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=roommanager&a=room_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `hotel_room_show` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room_show` LIMIT 1   [ RunTime:0.0003s ]
+SQL: select * from hotel_room_show Limit 0, 12 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Use of undefined constant room_category - assumed 'room_category' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\736f67087dcc71e163327d676154d5d2.php 第 36 行.
+NOTIC: [8] Use of undefined constant room_category - assumed 'room_category' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\736f67087dcc71e163327d676154d5d2.php 第 36 行.
+NOTIC: [8] Use of undefined constant room_category - assumed 'room_category' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\736f67087dcc71e163327d676154d5d2.php 第 36 行.
+NOTIC: [8] Use of undefined constant room_category - assumed 'room_category' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\736f67087dcc71e163327d676154d5d2.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T12:41:47+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=roommanager&a=edit_room_show&room_category=%E6%A0%87%E5%87%86%E5%8D%95%E4%BA%BA%E6%88%BF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `hotel_room_show` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `hotel_room_show` WHERE ( room_category='标准单人房' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\eab49837d817f5738f28c336102d1039.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T12:50:04+08:00 ] 172.16.105.43 /hotel/index.php?m=Roomer&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Undefined index: roomer_id G:\xampp\htdocs\hotel\Application\Roomer\Controller\IndexController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-04-22T12:50:07+08:00 ] 172.16.105.43 /hotel/index.php?m=Roomer&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T12:50:19+08:00 ] 172.16.105.43 /hotel/index.php?m=Roomer&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `hotel_roomer` [ RunTime:0.0805s ]
+SQL: SELECT * FROM `hotel_roomer` WHERE ( roomer_id='4001' AND roomer_password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `hotel_roomer` SET `last_login_time`='2017-04-22 12:50:19' WHERE ( roomer_id=4001 ) [ RunTime:0.1833s ]
+
+[ 2017-04-22T12:50:19+08:00 ] 172.16.105.43 /hotel/index.php?m=Roomer&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T12:50:20+08:00 ] 172.16.105.43 /hotel/index.php?m=Roomer&c=index&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `hotel_roomer` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `hotel_roomer` WHERE ( roomer_name='刘希' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:04:41+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:04:42+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=index&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `hotel_roomer` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `hotel_roomer` WHERE ( roomer_name='刘希' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:05:15+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:05:15+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=index&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `hotel_roomer` [ RunTime:0.1096s ]
+SQL: SELECT * FROM `hotel_roomer` WHERE ( roomer_name='刘希' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:32:19+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=usermanager&a=check_orders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room_order` LIMIT 1   [ RunTime:0.0004s ]
+SQL: select * from hotel_room_order Limit 0, 15 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Use of undefined constant employe_id - assumed 'employe_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+NOTIC: [8] Undefined index: employe_id G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\8d5252a8415653e2770e02c9fd255686.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:32:19+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=usermanager&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `hotel_user` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: select * from hotel_user Limit 0, 15 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:32:22+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=usermanager&a=index&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `hotel_user` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: select * from hotel_user Limit 15, 15 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+NOTIC: [8] Use of undefined constant user_id - assumed 'user_id' G:\xampp\htdocs\hotel\Application\Runtime\Cache\Roomer\6a416c3f24be59651270132b5ee650ce.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:32:45+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-04-22T13:32:45+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=index&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `hotel_roomer` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `hotel_roomer` WHERE ( roomer_name='刘希' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] Constant APP_DEBUG already defined G:\xampp\htdocs\hotel\index.php 第 30 行.
+

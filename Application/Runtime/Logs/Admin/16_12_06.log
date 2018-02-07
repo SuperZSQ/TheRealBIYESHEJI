@@ -1,0 +1,170 @@
+[ 2016-12-06T00:14:37+08:00 ] 127.0.0.1 /hotel/index.php?m=Admin&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.016373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2016-12-06T19:18:07+08:00 ] 127.0.0.1 /hotel/index.php?m=Admin&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2016-12-06T19:18:13+08:00 ] 127.0.0.1 /hotel/index.php?m=Admin&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `hotel_employe` [ RunTime:0.1692s ]
+SQL: SELECT * FROM `hotel_employe` WHERE ( employe_id='1001' AND employe_password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0398s ]
+SQL: UPDATE `hotel_employe` SET `last_login_time`='2016-12-06 19:18:13' WHERE ( employe_id=1001 ) [ RunTime:0.1081s ]
+
+[ 2016-12-06T19:18:14+08:00 ] 127.0.0.1 /hotel/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2016-12-06T19:18:15+08:00 ] 127.0.0.1 /hotel/index.php?m=Admin&c=index&a=info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `hotel_employe` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `hotel_employe` WHERE ( employe_name='张三' ) LIMIT 1   [ RunTime:0.0324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2016-12-06T19:18:16+08:00 ] 127.0.0.1 /hotel/index.php?m=Admin&c=room&a=notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0718s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room_order` WHERE ( instatus='已入住'and endtime='2016-12-06' ) LIMIT 1   [ RunTime:0.0645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: param H:\xampp\htdocs\hotel\Application\Runtime\Cache\Admin\a1eafe70c6548cd1cf518c4f141a7761.php 第 34 行.
+NOTIC: [8] Undefined variable: pageList H:\xampp\htdocs\hotel\Application\Runtime\Cache\Admin\a1eafe70c6548cd1cf518c4f141a7761.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2016-12-06T19:18:46+08:00 ] 127.0.0.1 /hotel/index.php?m=Admin&c=room&a=notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room_order` WHERE ( instatus='已入住'and endtime='2016-12-06' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: select * from hotel_room_order where instatus='已入住' AND endtime='2016-12-06'Limit 0, 5 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2016-12-06T19:18:47+08:00 ] 127.0.0.1 /hotel/index.php?m=Admin&c=room&a=notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room_order` WHERE ( instatus='已入住'and endtime='2016-12-06' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: select * from hotel_room_order where instatus='已入住' AND endtime='2016-12-06'Limit 0, 5 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+

@@ -1,0 +1,685 @@
+[ 2017-01-24T16:35:25+08:00 ] 127.0.0.1 /hotel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] Undefined index: user_nickname H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001789s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:35:41+08:00 ] 127.0.0.1 /hotel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index: user_nickname H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:36:54+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=index&a=environment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined index: user_nickname H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `hotel_room` [ RunTime:0.0459s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='标准单人房' )  [ RunTime:0.0005s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='标准双人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: startDate H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 57 行.
+NOTIC: [8] Undefined index: endDate H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 58 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` WHERE ( room_category='标准单人房' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `room_id` FROM `hotel_room` WHERE ( room_category='标准单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` WHERE ( room_category='标准双人房' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `room_id` FROM `hotel_room` WHERE ( room_category='标准双人房' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` WHERE ( room_category='豪华单人房' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `room_id` FROM `hotel_room` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` WHERE ( room_category='豪华双人房' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `room_id` FROM `hotel_room` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 81 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 107 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 147 行.
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 133 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 159 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and  endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<=''and endtime>'' and  endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>=''and  starttime<'' and endtime>=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>=''and  starttime<'' and endtime>=''and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='' and endtime<=''and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='' and endtime<=''and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `hotel_room_show` [ RunTime:0.0615s ]
+SQL: SELECT `room_description` FROM `hotel_room_show` WHERE ( room_category='标准单人房' )  [ RunTime:0.0007s ]
+SQL: SELECT `room_description` FROM `hotel_room_show` WHERE ( room_category='标准双人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_description` FROM `hotel_room_show` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_description` FROM `hotel_room_show` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0001s ]
+SQL: SELECT `room_pictures` FROM `hotel_room_show` WHERE ( room_category='标准单人房' )  [ RunTime:0.0001s ]
+SQL: SELECT `room_pictures` FROM `hotel_room_show` WHERE ( room_category='标准双人房' )  [ RunTime:0.0001s ]
+SQL: SELECT `room_pictures` FROM `hotel_room_show` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0001s ]
+SQL: SELECT `room_pictures` FROM `hotel_room_show` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:37:48+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index: user_nickname H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:39:54+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Undefined index: user_nickname H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:40:05+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Undefined index: user_nickname H:\xampp\htdocs\hotel\Application\Home\Controller\LoginController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:40:05+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=login&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:40:13+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `hotel_user` [ RunTime:0.3411s ]
+SQL: SELECT * FROM `hotel_user` WHERE ( user_nickname='davan' AND user_password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hotel_user` WHERE ( user_nickname='davan'AND user_password='e10adc3949ba59abbe56e057f20f883e' AND user_status='正常' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hotel_user` WHERE ( user_nickname='davan'AND user_password='e10adc3949ba59abbe56e057f20f883e' AND user_status='黑名单' )  [ RunTime:0.0006s ]
+
+[ 2017-01-24T16:40:13+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:40:15+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=index&a=environment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `hotel_room` [ RunTime:0.0140s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='标准单人房' )  [ RunTime:0.0003s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='标准双人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` WHERE ( room_category='标准单人房' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `room_id` FROM `hotel_room` WHERE ( room_category='标准单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` WHERE ( room_category='标准双人房' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `room_id` FROM `hotel_room` WHERE ( room_category='标准双人房' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` WHERE ( room_category='豪华单人房' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `room_id` FROM `hotel_room` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hotel_room` WHERE ( room_category='豪华双人房' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `room_id` FROM `hotel_room` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0713s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='103'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='105'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='110'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='113'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='203'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='206'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 81 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 6 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='104'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='106'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='201'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='204'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='205'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 107 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='102'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='107'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='109'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 147 行.
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 133 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 3 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='101'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='202'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='207'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id='208'and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 159 行.
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime<='2017-01-24'and endtime>'2017-01-24' and  endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24'and  starttime<'2017-01-25' and endtime>='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='到店付' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hotel_room_order` WHERE ( room_id=''and starttime>='2017-01-24' and endtime<='2017-01-25'and order_status='已支付' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 H:\xampp\htdocs\hotel\Application\Home\Controller\IndexController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `hotel_room_show` [ RunTime:0.0230s ]
+SQL: SELECT `room_description` FROM `hotel_room_show` WHERE ( room_category='标准单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_description` FROM `hotel_room_show` WHERE ( room_category='标准双人房' )  [ RunTime:0.0001s ]
+SQL: SELECT `room_description` FROM `hotel_room_show` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_description` FROM `hotel_room_show` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_pictures` FROM `hotel_room_show` WHERE ( room_category='标准单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_pictures` FROM `hotel_room_show` WHERE ( room_category='标准双人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_pictures` FROM `hotel_room_show` WHERE ( room_category='豪华单人房' )  [ RunTime:0.0002s ]
+SQL: SELECT `room_pictures` FROM `hotel_room_show` WHERE ( room_category='豪华双人房' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:40:17+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=yuding&a=index&type=StandardSingle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `hotel_room` [ RunTime:0.0028s ]
+SQL: SELECT `room_price` FROM `hotel_room` WHERE ( room_category='标准单人房' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2017-01-24T16:40:17+08:00 ] 127.0.0.1 /hotel/index.php?m=Home&c=yuding&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+

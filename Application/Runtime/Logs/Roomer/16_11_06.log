@@ -1,0 +1,236 @@
+[ 2016-11-06T22:43:46+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=profit&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0748s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 28 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 29 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 30 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 31 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2015' AND month(starttime) = '0' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2015' AND month(starttime) = '0' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2015' AND month(starttime) = '0' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2015' AND month(starttime) = '0' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
+[ 2016-11-06T22:45:27+08:00 ] 127.0.0.1 /hotel/index.php?m=Roomer&c=profit&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `hotel_room_order` [ RunTime:0.0063s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 28 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 29 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 30 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 31 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '11' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '10' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '9' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '8' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '7' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '6' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '5' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '4' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '3' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '2' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2016' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2016' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2016' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2016' AND month(starttime) = '1' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 40 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华单人房' AND year(starttime)='2015' AND month(starttime) = '0' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 41 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='豪华双人房' AND year(starttime)='2015' AND month(starttime) = '0' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 42 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准单人房' AND year(starttime)='2015' AND month(starttime) = '0' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' H:\xampp\htdocs\hotel\Application\Roomer\Controller\ProfitController.class.php 第 43 行.
+SQL: SELECT SUM(price) AS tp_sum FROM `hotel_room_order` WHERE ( category='标准双人房' AND year(starttime)='2015' AND month(starttime) = '0' AND order_status='已支付'  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Constant APP_DEBUG already defined H:\xampp\htdocs\hotel\index.php 第 30 行.
+
