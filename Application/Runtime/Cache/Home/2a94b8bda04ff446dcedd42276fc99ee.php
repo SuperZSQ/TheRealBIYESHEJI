@@ -86,8 +86,10 @@
                             <li><a href="<?php echo U('index/hyquanyi');?>">会员权益</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo ($url); ?>"><div id="tip"><?php echo ($tip); ?></div></a>
-                    <a href="<?php echo ($url1); ?>" onclick="return confirm('确认退出？')"><div id="tip1"><?php echo ($tip1); ?></div></a></li>
+                    <li>
+                        <a href="<?php echo ($url); ?>"><div id="tip"><?php echo ($tip); ?></div></a>
+                        <a href="<?php echo ($url1); ?>" onclick="return confirm('确认退出？')"><div id="tip1"><?php echo ($tip1); ?></div></a>
+                    </li>
                 </ul>
             </div>
         </header>
@@ -236,7 +238,7 @@
             <ul>
                 <li><a href="<?php echo U('login/index');?>">成为会员</a></li>
                 <li><a href="<?php echo U('index/hyquanyi');?>">会员权益</a></li>
-                <li><a href="http://127.0.0.1:808/hotel/index.php?m=Admin&c=login&a=index">后台登录</a></li>
+                <li><a href="http://localhost/hotel/index.php?m=Roomer&c=login&a=index">后台登录</a></li>
             </ul>
         </div>
 

@@ -19,7 +19,7 @@
     <script type = "text/javascript" src = "/hotel/Public/js/checkCode.js">
     </script>
     <meta charset="utf-8">
-    <title>海悦酒店服务台系统</title>
+    <title>龙峰酒店服务台系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,7 +38,7 @@
 <body>
 
 <div class="page-container">
-    <h1>海悦酒店前台系统</h1>
+    <h1>龙峰酒店前台系统</h1>
     <form action="<?php echo U('login/login');?>" method="post">
         <input type="text" name="e_id" id="e_id" class="e_id" placeholder="工号">
         <input type="password" name="e_password" id="e_password" class="password" placeholder="密码">

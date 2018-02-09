@@ -52,7 +52,7 @@
         <!--start header -->
         <header id="header">
             <div id="logo">
-                <a href="<?php echo U('index/index');?>"><strong>海悦</strong>酒店</a>
+                <a href="<?php echo U('index/index');?>"><strong>龙峰</strong>酒店</a>
             </div>
             <!--<div id="searchbox">
                 <form action="#">
@@ -80,7 +80,7 @@
         <div class="subheader">
             <div class="left">
                 <span class="page-title">找回密码</span>
-                <span class="page-desc">海悦伴你随行</span>			</div>
+                <span class="page-desc">龙峰伴你随行</span>			</div>
         </div>
         <!--subheader -->
 
@@ -144,7 +144,7 @@
     <footer id="footer">
         <div class="wrap">
             <div class="one-fourth">
-                <div class="theme-logo"><strong>海悦</strong>酒店</div>
+                <div class="theme-logo"><strong>龙峰</strong>酒店</div>
                 <p>全心全意打造高质量连锁酒店</p>
                 <p>给您一个快捷舒适的居住环境</p>
             </div>

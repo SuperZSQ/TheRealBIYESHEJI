@@ -17,7 +17,7 @@
     <div class="body-content">
         <form method="post" class="form-x" action="">
             <div class="form-group">
-                   <center> <h1><font color="blue"><?php echo ($r_name); ?></font>店长,您好!海悦因你付出而辉煌！</h1></center>
+                   <center> <h1><font color="blue"><?php echo ($r_name); ?></font>店长,您好!龙峰因你付出而辉煌！</h1></center>
             </div>
             <div class="form-group">
                 <center><p>上次登录时间：<font color="red"><h3><?php echo ($last_login_time); ?></h3></font></p>

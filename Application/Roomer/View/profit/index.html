@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/hotel/Public/chart/Chart.bundle.js"></script>
+    <script src="/hotel/Public/chart/utils.js"></script>
+    <script type="text/javascript">
+
+        var config = {
+            type:'line',
+            data:{
+                labels: ["{$yearArray[11]}-{$monthArray[11]}","{$yearArray[10]}-{$monthArray[10]}","{$yearArray[9]}-{$monthArray[9]}","{$yearArray[8]}-{$monthArray[8]}","{$yearArray[7]}-{$monthArray[7]}",
+                    "{$yearArray[6]}-{$monthArray[6]}","{$yearArray[5]}-{$monthArray[5]}","{$yearArray[4]}-{$monthArray[4]}","{$yearArray[3]}-{$monthArray[3]}","{$yearArray[2]}-{$monthArray[2]}","{$yearArray[1]}-{$monthArray[1]}","{$yearArray[0]}-{$monthArray[0]}"],
+                datasets:[
+                    {
+                        label: "单人豪华房",
+                        data :["{$LuxurySingle[11]}","{$LuxurySingle[10]}","{$LuxurySingle[9]}","{$LuxurySingle[8]}","{$LuxurySingle[7]}","{$LuxurySingle[6]}","{$LuxurySingle[5]}","{$LuxurySingle[4]}","{$LuxurySingle[3]}","{$LuxurySingle[2]}","{$LuxurySingle[1]}","{$LuxurySingle[0]}"],
+                        backgroundColor: window.chartColors.red,
+                        borderColor: window.chartColors.red,
+                        fill: false
+                    },
+                    {
+                        label: "豪华双人房",
+                        data :[ "{$LuxuryDouble[11]}","{$LuxuryDouble[10]}","{$LuxuryDouble[9]}","{$LuxuryDouble[8]}","{$LuxuryDouble[7]}","{$LuxuryDouble[6]}","{$LuxuryDouble[5]}","{$LuxuryDouble[4]}","{$LuxuryDouble[3]}","{$LuxuryDouble[2]}","{$LuxuryDouble[1]}","{$LuxuryDouble[0]}"],
+                        backgroundColor: window.chartColors.green,
+                        borderColor: window.chartColors.green,
+                        fill: false
+                    },
+                    {
+                        label: "标准单人房",
+                        data :["{$StandardSingle[11]}","{$StandardSingle[10]}","{$StandardSingle[9]}","{$StandardSingle[8]}","{$StandardSingle[7]}","{$StandardSingle[6]}","{$StandardSingle[5]}","{$StandardSingle[4]}","{$StandardSingle[3]}","{$StandardSingle[2]}","{$StandardSingle[1]}","{$StandardSingle[0]}"],
+                        backgroundColor: window.chartColors.yellow,
+                        borderColor: window.chartColors.yellow,
+                        fill: false
+                    },
+                    {
+                        label: "标准双人房",
+                        data :[ "{$StandardDouble[11]}","{$StandardDouble[10]}","{$StandardDouble[9]}","{$StandardDouble[8]}","{$StandardDouble[7]}","{$StandardDouble[6]}","{$StandardDouble[5]}","{$StandardDouble[4]}","{$StandardDouble[3]}","{$StandardDouble[2]}","{$StandardDouble[1]}","{$StandardDouble[0]}"],
+                        backgroundColor: window.chartColors.blue,
+                        borderColor: window.chartColors.blue,
+                        fill: false
+                    }
+                ]
+
+            },
+            options: {
+                responsive: true,
+                title:{
+                    display: true,
+                    text: '近一年来四个不同类型的客房收益分析'
+                },
+                scales: {
+                    yAxes: [{
+                        gridLines: {
+                            drawBorder: true,
+                            color: ['pink', 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple','gray']
+                        },
+                        ticks: {
+                            min: 0,
+                            max: 3000,
+                            stepSize: 300
+                        }
+                    }]
+                }
+            }
+        };
+        window.onload = function() {
+            var ctx = document.getElementById("canvas").getContext("2d");
+            window.myLine = new Chart(ctx, config);
+        };
+
+    </script>
+    <title>后台管理系统</title>
+</head>
+<body>
+<div style="width:100%;">
+    <canvas id="canvas"></canvas>
+</div>
+</body>
+</html>
+

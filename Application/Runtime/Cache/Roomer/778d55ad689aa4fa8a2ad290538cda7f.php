@@ -17,7 +17,7 @@
     <div class="body-content">
         <form method="post" class="form-x" action="<?php echo U('employemanager/add_employees');?>">
             <div class="form-group">
-                <center> <h1>海悦酒店新增员工</h1></center>
+                <center> <h1>龙峰酒店新增员工</h1></center>
             </div>
             <!--<div class="form-group">
                 <div class="label">

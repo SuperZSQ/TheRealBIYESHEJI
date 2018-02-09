@@ -17,7 +17,7 @@
     <div class="body-content">
         <form method="post" class="form-x" action="">
             <div class="form-group">
-                <center> <h1>欢迎来到海悦酒店</h1></center>
+                <center> <h1>欢迎来到龙峰酒店</h1></center>
             </div>
             <div class="form-group">
                 <div class="label">
